@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-class Compo1 extends Component {
+class LastChild extends Component {
     state = {  } 
     render() { 
         return (
             <>
-            <p>Hello {this.props.name}</p>
+            <p>username:{this.props.username}</p>
             </>
         );
     }
 }
  
-export default Compo1;
+export default LastChild;
